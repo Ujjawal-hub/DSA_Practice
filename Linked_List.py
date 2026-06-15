@@ -111,6 +111,8 @@ class Linked_List:
             tmp = self.head
             self.head = self.head.next
 
+            self.size -= 1
+
             return tmp
         else:
             return None
@@ -222,20 +224,49 @@ class Linked_List:
 
     def reverse(self):
 
+        # this implementation in the comment is easy to code but it is bigO(n^2)
+
+        # i = 0
+
+        #   while i < self.size:
+
+        #    tmp = self.pop_back()
+
+        #      self.insert(i,tmp)
+
+        #     i += 1
+
+        # -----------------------------------
+
+        # this implementation is BigO(n)
+
         i = 0
 
-        while i < self.size:
-            tmp = self.pop_back()
+        current = self.head
+        prev = None
 
-            self.insert(i, tmp)
+        while i < self.size:
+            next1 = current.next
+            current.next = prev
+            prev = current
+            current = next1
 
             i += 1
 
+        self.head = prev
+
     def remove_value(self, node):
 
-        self.pop_front()
+        i = 0
 
-        self.insert(0, node)
+        while i < self.size:
+
+            if value == self.valueat(i):
+                self.erase(i)
+
+                break
+            i += 1
+
 
 
 
