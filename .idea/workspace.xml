@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P2_stock_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1_Dynamic_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2_Two_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P1_Two_Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,9 @@
     &quot;accountId&quot;: &quot;307dfe02-4af8-4760-bcde-c65049bf35ac&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Leet_Code_Practice/Arrays/P3.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,6 +59,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Arrays" />
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781521347152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1781597185451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781597185451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
