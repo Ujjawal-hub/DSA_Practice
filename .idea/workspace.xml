@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Medium/P1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Linked_List/P4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Linked_List/P5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P1_Two_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P1_Two_Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P2_stock_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P2_stock_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/P7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Arrays/Easy/P7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782042936761</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1782811400575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1782811400575</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
