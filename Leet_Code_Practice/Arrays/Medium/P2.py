@@ -46,3 +46,36 @@ class Solution:
 
     #This solution is BigO(n) in Time and BigO(n) in space as well
 
+    #Follow up: Can you solve the problem in O(1) extra space complexity?
+    # (The output array does not count as extra space for space complexity analysis.)
+
+    class Solution:
+        def productExceptSelf1(self, nums):
+
+            length = len(nums)
+            list1 = [1]
+
+            i = 0
+
+            a = 1
+
+            while len(list1) < length:
+                a = a * nums[i]
+
+                list1.append(a)
+
+                i += 1
+
+            i = length - 1
+            a = 1
+            while i > 0:
+                a = a * nums[i]
+
+                list1[i - 1] = a * list1[i - 1]
+
+                i -= 1
+
+            return list1
+
+
+#This solution is BigO(n) in Time and BigO(1) in space if we are not counting output array
