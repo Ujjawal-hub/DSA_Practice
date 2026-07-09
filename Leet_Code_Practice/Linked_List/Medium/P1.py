@@ -92,3 +92,33 @@ class Solution:
 #         return head
 
 # This is the second Solution this is BigO(n) is Time and BigO(1) in space
+
+# Follow up: Could you do this in one pass?
+
+class Solution:
+    def removeNthFromEnd(self, head, n):
+        current = head
+
+        list1 = list()
+
+        length = 0
+
+        while current != None:
+            list1.append(current)
+
+            current = current.next
+
+            length += 1
+
+        if n == length:
+            head = head.next
+
+        else:
+
+            a = list1[length - n - 1]
+
+            a.next = (a.next).next
+
+        return head
+
+#this solution is BigO(n) in time and BigO(n) in space as well  but this solution is done in single pass
