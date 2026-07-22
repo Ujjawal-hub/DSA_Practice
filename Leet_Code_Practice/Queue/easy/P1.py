@@ -61,3 +61,55 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
+
+#Follow-up: Can you implement the queue such that each operation is a
+# mortized O(1) time complexity? In other words, performing n operations
+# will take overall O(n) time even if one of those operations may take longer.
+
+class MyQueue:
+
+    def __init__(self):
+
+        self.list1 = list()
+        self.list2 = list()
+        self.size = 0
+
+    def push(self, x: int) -> None:
+
+        self.list1.append(x)
+
+        self.size += 1
+
+# BigO(1) both space and time
+
+    def pop(self) -> int:
+
+        if len(self.list2) == 0:
+
+            while len(self.list1) != 0:
+                self.list2.append(self.list1.pop())
+
+        a = self.list2.pop()
+
+        self.size -= 1
+
+        return a
+
+#Bigo(N) in time but amortized O(1) in Time and O(1) in space
+
+    def peek(self) -> int:
+
+        if len(self.list2) == 0:
+
+            while len(self.list1) != 0:
+                self.list2.append(self.list1.pop())
+
+        return self.list2[-1]
+
+    # Bigo(N) in time but amortized O(1) in Time and O(1) in space
+
+    def empty(self) -> bool:
+
+        return self.size == 0
+
+    # BigO(1) in space and time
