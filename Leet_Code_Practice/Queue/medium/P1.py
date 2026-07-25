@@ -49,5 +49,5 @@ class Solution:
 
         return maxwindow
 
-# this is 2n in time n for apending nfor deleting and k +n in space k space at any point and n for maxwindow array
+# this is 2n in time n for apending n for deleting and n+1 in space where k is a space at any point and n-k+1 for maxwindow array
 # so this is BigO(N) in both space and time
