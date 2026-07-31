@@ -172,3 +172,62 @@ class Solution:
             answer.append(groupdict[a])
 
         return answer
+
+
+class Solution:
+
+    def __init__(self):
+
+        self.hashdict = dict()
+
+        for i in string.ascii_lowercase:
+            self.hashdict[i] = None
+
+    def hashkey(self, strin):
+
+        for i in strin:
+
+            if self.hashdict[i] == None:
+
+                self.hashdict[i] = 1
+            else:
+
+                self.hashdict[i] += 1
+
+                # k operation
+
+        a = str(self.hashdict)
+
+        for i in strin:
+            self.hashdict[i] = None
+
+            # k operation
+
+        return a
+
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+
+        groupdict = dict()
+
+        for strin in strs:
+
+            key = self.hashkey(strin)
+
+            # k opertaion per string
+
+            if key in groupdict:
+
+                groupdict[key].append(strin)
+
+            else:
+
+                groupdict[key] = [strin]
+
+        answer = list()
+
+        for a in groupdict:
+            answer.append(groupdict[a])
+
+        return answer
+
+        # BigO(Nk) operation in time and BigO(Nk) in space also
