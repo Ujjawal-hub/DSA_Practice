@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
-      <change afterPath="$PROJECT_DIR$/Hash_Table/Medium/P3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Medium/P4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Easy/P6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Easy/P6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Medium/P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Medium/P1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Medium/P2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Medium/P2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Medium/P3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Hash_Table/Medium/P3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +67,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed\Medium" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Linked_List\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Arrays\Easy" />
-      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Arrays" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -336,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785682384415</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1785859449514</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1785859449514</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
