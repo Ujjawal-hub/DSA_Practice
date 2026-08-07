@@ -1,5 +1,5 @@
-from Linked_List_t import Linked_List1
-from  Linked_List import Node
+from Data_Structure_Implementation.Linked_List_t import Linked_List1
+from Data_Structure_Implementation.Linked_List import Node
 
 
 

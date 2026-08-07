@@ -1,8 +1,6 @@
 #Given the head of a singly linked list, return true
 # if it is a palindrome or false otherwise.
 #
-from Linked_List import Node
-from Linked_List import Linked_List
 
 
 # Definition for singly-linked list.
