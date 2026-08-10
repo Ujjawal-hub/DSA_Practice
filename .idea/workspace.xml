@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code" />
+    <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Easy/P3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Easy/P4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Medium/P1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Medium/P2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Medium/P3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Easy/P1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/P2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Binary_Search/Easy/P2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +64,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Binary_Search\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Data_Structure_Implementation" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed\Medium" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed" />
-      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Linked_List\Easy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -357,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786119752916</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1786204463213</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1786204463213</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
