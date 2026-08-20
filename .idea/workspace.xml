@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Tree_Search/Breadth_first_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Tree_Search/Depth_first_search/in_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Tree_Search/Depth_first_search/post_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Tree_Search/Depth_first_search/pre_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Tree_Search/pre_requestie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Structure_Implementation/Binary_Search_Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,21 +49,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Binary_Search_Tree.executor": "Run",
     "Python.Breadth_first_search.executor": "Run",
     "Python.P5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Data_Structure_Implementation\Tree_Search" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Binary_Search\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Data_Structure_Implementation" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed\Medium" />
-      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Mixed" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -397,8 +394,35 @@
       <option name="project" value="LOCAL" />
       <updated>1786628456701</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1786884747341</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1786884747341</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1786885121282</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1786885121282</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dynamic_Array" />
