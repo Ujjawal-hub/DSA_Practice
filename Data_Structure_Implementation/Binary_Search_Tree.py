@@ -5,6 +5,10 @@ class Node:
         self.left = None
         self.right = None
 
+    def __str__(self):
+
+        return str(self.value)
+
 
 class Binary_search_Tree:
 
@@ -162,6 +166,8 @@ class Binary_search_Tree:
 
             elif i.value < value:
 
+
+
                 parent = (i, "right")
 
                 i = i.right
@@ -235,11 +241,11 @@ class Binary_search_Tree:
 
     def delete(self, value):
 
-        i, string = self.find_element(value)
+        i = self.find_element(value)
 
-        p_i, p_string = self.find_element_parent(value)
+        p_i, p_string = self.finding_element_parent(value)
 
-        if i.left != None ^ i.right != None:  # ^ XOR operator means only one condition can be true
+        if (i.left != None) ^ (i.right != None):  # ^ XOR operator means only one condition can be true
 
             child = None
 
@@ -291,7 +297,7 @@ class Binary_search_Tree:
 
             successor = self.successor(value)
 
-            self.delete(successor)
+            self.delete(successor.value)
 
             successor.right = i.right
             successor.left = i.left
@@ -326,9 +332,15 @@ tree.insert(42)
 tree.insert(46)
 tree.insert(25)
 
-tree.delete(50)
+
+tree.delete(25)
+tree.delete(55)
 tree.printTree()
 
+
+print(tree.root)
+
+print(tree.count)
 
 
 
