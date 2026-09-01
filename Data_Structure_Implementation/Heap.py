@@ -101,13 +101,13 @@ class Heap:
 
                     array[index], array[2 * index + 1] = left_child, current
 
-                    self.shift_down(2 * index + 1, array)
+                    self.shift_down(2 * index + 1, array,last_index)
 
                 else:
 
                     array[index], array[2 * index + 2] = right_child, current
 
-                    self.shift_down(2 * index + 2, array)
+                    self.shift_down(2 * index + 2, array,last_index)
 
         return
 
@@ -135,6 +135,9 @@ class Heap:
 
         self.size -= 1
 
+
+        self.shift_up(x)  # here shift is nesccary also becuase even though we replaced with last elemnt with this last elemnt may not be decendent of this index ,so this value may be larger than its parent shit_up will check and take care of it
+
         self.shift_down(x, self.List)
 
         return value
@@ -148,14 +151,13 @@ class Heap:
         index = (child_index - 1) // 2
 
         while index >= 0:
-            self.shift_down(index,
-                            array)  # this shift down will not go recurcively below as below this index heap rules are already foloowed so it will run only one time
+            self.shift_down(index,array)
 
             index -= 1
 
         return array
 
-    # heap_build will run BigO(n) Time abd BigO(1) in Space
+    # heap_build will run BigO(n) Time and BigO(logn) in Space
 
     def heap_sort(self, array=None):
 
@@ -172,50 +174,22 @@ class Heap:
         while last_index != 0:
             array[0], array[last_index] = array[last_index], array[0]
 
+
+
             last_index -= 1
 
             self.shift_down(0, array, last_index)
 
         return array
 
-# heap build take BiGO(n) time and one shift down take BigO(logn) in both space and Time so doing it n times
+# heap build take BiGO(n) time and BigO(logn) space and one shift down take BigO(logn) in both space and Time so doing it n times
 # this is BigO(nlogn) in Time and BigO(logn) in space
 
 
-h = Heap(2)
-
-h.insert(21)
-h.insert(17)
-h.insert(16)
-h.insert(15)
-h.insert(14)
-h.insert(12)
-h.insert(11)
-h.insert(9)
-h.insert(8)
-h.insert(7)
-h.insert(6)
-h.insert(18)
-
-h.remove(1)
-
-print(h.List)
-
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-print(h.extract_max())
-
-
-print(h.List)
 
 
 
-print(h.get_size())
+
+
+
+
