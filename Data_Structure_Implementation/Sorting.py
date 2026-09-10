@@ -14,20 +14,33 @@ class Sorting:
 
         sort = list()
 
-        while i < len(left) or j < len(right):
+        while i < len(left) and j < len(right):
 
-            if (i < len(left)) and (left[i] <= right[
-                j]):  # this equal sign here for array1 which will be the left arrray ensure stablity of the merge sort
+            if  (left[i] <= right[j]):  # this equal sign here for array1 which will be the left arrray ensure stablity of the merge sort
 
                 sort.append(left[i])
 
                 i += 1
 
-            elif (j < len(right)) and (left[i] > right[j]):
+            elif (left[i] > right[j]):
 
                 sort.append(right[j])
 
                 j += 1
+
+        if i == len(left):
+
+            while j < len(right):
+                sort.append(right[j])
+
+                j += 1
+
+        elif j == len(right):
+
+            while i < len(left):
+                sort.append(left[i])
+
+                i += 1
 
         return sort
 
@@ -53,7 +66,7 @@ class Sorting:
 
     def merge_sort_array(self, array, start, end):
 
-        left_end = end // 2
+        left_end = start + (end - start) // 2
         left_start = start
 
         right_start = left_end + 1
