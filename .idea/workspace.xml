@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Mixed/Medium/P3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Mixed/Medium/P4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,14 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780732824231</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Leet_Code">
-      <option name="closed" value="true" />
-      <created>1782811400575</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1782811400575</updated>
     </task>
     <task id="LOCAL-00010" summary="Leet_Code">
       <option name="closed" value="true" />
@@ -475,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789401928391</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1789479969948</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1789479969948</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
