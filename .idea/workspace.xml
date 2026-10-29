@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="639fbe85-46d9-4a65-9d8b-9e62d326d910" name="Changes" comment="Leet_Code">
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Dynamic_Programming/P1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Recursion/Hard/p1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Dynamic_Programming/Easy/P2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/Dynamic_Programming/Medium/P1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leet_Code_Practice/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leet_Code_Practice/Dynamic_Programming/P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leet_Code_Practice/Dynamic_Programming/Easy/P1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +65,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Dynamic_Programming\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Graph\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Heap\Easy" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Binary_Search_Tree\Medium" />
       <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Leet_Code_Practice\Binary_Search_Tree" />
-      <recent name="C:\Users\jainu\PycharmProjects\DSA_Practice\Data_Structure_Implementation\Tree_Search" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -84,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780732824231</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Leet_Code">
-      <option name="closed" value="true" />
-      <created>1784548361375</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1784548361375</updated>
     </task>
     <task id="LOCAL-00020" summary="Leet_Code">
       <option name="closed" value="true" />
@@ -477,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792504689391</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Leet_Code">
+      <option name="closed" value="true" />
+      <created>1793208365079</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1793208365079</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
